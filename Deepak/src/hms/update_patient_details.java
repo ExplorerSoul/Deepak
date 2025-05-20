@@ -12,28 +12,28 @@ public class update_patient_details extends JFrame {
 
         JPanel panel = new JPanel();
         panel.setBounds(5,5,940,490);
-        panel.setBackground(new Color(90, 156, 163));
+        panel.setBackground(Color.white);
         panel.setLayout(null);
         add(panel);
 
-        ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("res/icon/updated.png"));
-        Image image = imageIcon.getImage().getScaledInstance(300,300,Image.SCALE_DEFAULT);
-        ImageIcon imageIcon1 = new ImageIcon(image);
-        JLabel label = new JLabel(imageIcon1);
-        label.setBounds(500,60,300,300);
-        panel.add(label);
+        // ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("res/icon/updated.png"));
+        // Image image = imageIcon.getImage().getScaledInstance(300,300,Image.SCALE_DEFAULT);
+        // ImageIcon imageIcon1 = new ImageIcon(image);
+        // JLabel label = new JLabel(imageIcon1);
+        // label.setBounds(500,60,300,300);
+        // panel.add(label);
 
         JLabel label1 = new JLabel("Update Patient Details");
         label1.setBounds(124,11,260,25);
         label1.setFont(new Font("Tahoma",Font.BOLD,20));
-        label1.setForeground(Color.white);
+        label1.setForeground(Color.black);
         panel.add(label1);
 
 
         JLabel label2 = new JLabel("Name :");
         label2.setBounds(25,88,100,14);
         label2.setFont(new Font("Tahoma",Font.PLAIN,14));
-        label2.setForeground(Color.white);
+        label2.setForeground(Color.black);
         panel.add(label2);
 
         Choice choice = new Choice();
@@ -54,7 +54,7 @@ public class update_patient_details extends JFrame {
         JLabel label3 = new JLabel("Room Number :");
         label3.setBounds(25,129,100,14);
         label3.setFont(new Font("Tahoma",Font.PLAIN,14));
-        label3.setForeground(Color.white);
+        label3.setForeground(Color.black);
         panel.add(label3);
 
         JTextField textFieldR = new JTextField();
@@ -64,7 +64,7 @@ public class update_patient_details extends JFrame {
         JLabel label4 = new JLabel("In-Time  :");
         label4.setBounds(25,174,100,14);
         label4.setFont(new Font("Tahoma",Font.PLAIN,14));
-        label4.setForeground(Color.white);
+        label4.setForeground(Color.black);
         panel.add(label4);
 
         JTextField textFieldINTIme = new JTextField();
@@ -74,7 +74,7 @@ public class update_patient_details extends JFrame {
         JLabel label5 = new JLabel("Amount Paid (Rs) :");
         label5.setBounds(25,216,150,14);
         label5.setFont(new Font("Tahoma",Font.PLAIN,14));
-        label5.setForeground(Color.white);
+        label5.setForeground(Color.black);
         panel.add(label5);
 
         JTextField textFieldAmount = new JTextField();
@@ -84,7 +84,7 @@ public class update_patient_details extends JFrame {
         JLabel label6 = new JLabel("Pending Amount (Rs) :");
         label6.setBounds(25,261,150,14);
         label6.setFont(new Font("Tahoma",Font.PLAIN,14));
-        label6.setForeground(Color.white);
+        label6.setForeground(Color.black);
         panel.add(label6);
 
         JTextField textFieldPending = new JTextField();
@@ -161,7 +161,7 @@ public class update_patient_details extends JFrame {
         setUndecorated(true);
         setSize(950,500);
         setLayout(null);
-        setLocation(400,250);
+        setLocation(424,80);
         setVisible(true);
 
     }
