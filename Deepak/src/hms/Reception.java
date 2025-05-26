@@ -20,7 +20,7 @@ public class Reception extends JFrame {
         add(panel);
 
         ImageIcon i1 = new ImageIcon("res/icon/pic.jpg");
-        Image image = i1.getImage().getScaledInstance(250,180,Image.SCALE_DEFAULT);
+        Image image = i1.getImage().getScaledInstance(248,160,Image.SCALE_DEFAULT);
         ImageIcon i2 = new ImageIcon(image);
         JLabel label = new JLabel(i2);
         label.setBounds(70,638,248,160);
@@ -46,19 +46,19 @@ public class Reception extends JFrame {
         JButton btn1 = new JButton("Add New Patient");
         btn1.setBounds(40,30,320,36);
         btn1.setFont(new Font("Tahoma", Font.BOLD, 20));
-        btn1.setBackground(new Color(246,215,118));
+        btn1.setBackground(new Color(171, 213, 255));
         panel.add(btn1);
         btn1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new NEW_PATIENT();
+                new New_Patient();
             }
         });
 
         JButton btn2 = new JButton("Room");
         btn2.setFont(new Font("Tahoma", Font.BOLD, 20));
-        btn2.setBounds(40,82,320,36);;
-        btn2.setBackground(new Color(246,215,118));
+        btn2.setBounds(40,88,320,36);;
+        btn2.setBackground(new Color(171, 213, 255));
         panel.add(btn2);
         btn2.addActionListener(new ActionListener() {
             @Override
@@ -69,8 +69,8 @@ public class Reception extends JFrame {
 
         JButton btn3 = new JButton("Department");
         btn3.setFont(new Font("Tahoma", Font.BOLD, 20));
-        btn3.setBounds(40,134,320,36);;
-        btn3.setBackground(new Color(246,215,118));
+        btn3.setBounds(40,146,320,36);;
+        btn3.setBackground(new Color(171, 213, 255));
         panel.add(btn3);
         btn3.addActionListener(new ActionListener() {
             @Override
@@ -81,8 +81,8 @@ public class Reception extends JFrame {
 
         JButton btn4 = new JButton("All Employee Info");
         btn4.setFont(new Font("Tahoma", Font.BOLD, 20));
-        btn4.setBounds(40,186,320,36);;
-        btn4.setBackground(new Color(246,215,118));
+        btn4.setBounds(40,204,320,36);;
+        btn4.setBackground(new Color(171, 213, 255));
         panel.add(btn4);
         btn4.addActionListener(new ActionListener() {
             @Override
@@ -93,8 +93,8 @@ public class Reception extends JFrame {
 
         JButton btn5 = new JButton("Patient Info");
         btn5.setFont(new Font("Tahoma", Font.BOLD, 20));
-        btn5.setBounds(40,238,320,36);;
-        btn5.setBackground(new Color(246,215,118));
+        btn5.setBounds(40,262,320,36);;
+        btn5.setBackground(new Color(171, 213, 255));
         panel.add(btn5);
         btn5.addActionListener(new ActionListener() {
             @Override
@@ -105,8 +105,8 @@ public class Reception extends JFrame {
 
         JButton btn6= new JButton("Patient Discharge");
         btn6.setFont(new Font("Tahoma", Font.BOLD, 20));
-        btn6.setBounds(40,290,320,36);;
-        btn6.setBackground(new Color(246,215,118));
+        btn6.setBounds(40,320,320,36);;
+        btn6.setBackground(new Color(171, 213, 255));
         panel.add(btn6);
         btn6.addActionListener(new ActionListener() {
             @Override
@@ -117,8 +117,8 @@ public class Reception extends JFrame {
 
         JButton btn7= new JButton("Update Patient Details");
         btn7.setFont(new Font("Tahoma", Font.BOLD, 20));
-        btn7.setBounds(40,342,320,36);;
-        btn7.setBackground(new Color(246,215,118));
+        btn7.setBounds(40,378,320,36);;
+        btn7.setBackground(new Color(171, 213, 255));
         panel.add(btn7);
         btn7.addActionListener(new ActionListener() {
             @Override
@@ -129,8 +129,8 @@ public class Reception extends JFrame {
 
         JButton btn8= new JButton("Hospital Ambulance");
         btn8.setFont(new Font("Tahoma", Font.BOLD, 20));
-        btn8.setBounds(40,394,320,36);;
-        btn8.setBackground(new Color(246,215,118));
+        btn8.setBounds(40,436,320,36);;
+        btn8.setBackground(new Color(171, 213, 255));
         panel.add(btn8);
         btn8.addActionListener(new ActionListener() {
             @Override
@@ -141,8 +141,8 @@ public class Reception extends JFrame {
 
         JButton btn9= new JButton("Search Room");
         btn9.setFont(new Font("Tahoma", Font.BOLD, 20));
-        btn9.setBounds(40,446,320,36);;
-        btn9.setBackground(new Color(246,215,118));
+        btn9.setBounds(40,494,320,36);;
+        btn9.setBackground(new Color(171, 213, 255));
         panel.add(btn9);
         btn9.addActionListener(new ActionListener() {
             @Override
@@ -153,20 +153,20 @@ public class Reception extends JFrame {
 
         JButton btn10= new JButton(" Book Appointment");
         btn10.setFont(new Font("Tahoma", Font.BOLD, 20));
-        btn10.setBounds(40,498,320,36);;
-        btn10.setBackground(new Color(246,215,118));
+        btn10.setBounds(40,552,320,36);;
+        btn10.setBackground(new Color(171, 213, 255));
         panel.add(btn10);
 
         JButton btn11= new JButton("Patient History");
         btn11.setFont(new Font("Tahoma", Font.BOLD, 20));
-        btn11.setBounds(40,550,320,36);;
-        btn11.setBackground(new Color(246,215,118));
+        btn11.setBounds(40,610,320,36);;
+        btn11.setBackground(new Color(171, 213, 255));
         panel.add(btn11);
 
         JButton btn12= new JButton("Logout");
         btn12.setFont(new Font("Tahoma", Font.BOLD, 20));
-        btn12.setBounds(40,602,320,36);;
-        btn12.setBackground(new Color(246,215,118));
+        btn12.setBounds(40,668,320,36);;
+        btn12.setBackground(new Color(171, 213, 255));
         panel.add(btn12);
         btn12.addActionListener(new ActionListener() {
             @Override
@@ -176,9 +176,9 @@ public class Reception extends JFrame {
             }
         });
 
+        setLayout(null);
         setSize(1548,1080);
         getContentPane().setBackground(new Color(31, 118, 192));
-        setLayout(null);
         setVisible(true);
         
     }
